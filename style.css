@@ -1,0 +1,59 @@
+body {
+  margin: 5px;
+  background-color: bisque;
+  background-image: url(https://i.pinimg.com/originals/ad/1e/2c/ad1e2c0c93696b30a9a6c916cb73d4b7.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(247, 230, 115);
+  padding: 32px;
+  margin: 10px;
+  border: 2px solid rgb(247, 230, 115);
+}
+
+main {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+
+h1 {
+  font-family: "Homer Simpson Revised";
+}
+
+h2 {
+  font-family: "Homer Simpson Revised";
+  color: rgb(247, 230, 115);
+  text-align: center;
+}
+
+p {
+  font-family: monospace;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+img {
+  border-radius: 30%;
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Homer Simpson Revised";
+  color: rgb(247, 230, 115);
+  padding: 16px;
+  border: 2px solid rgb(247, 230, 115);
+  text-align-last: left;
+}
