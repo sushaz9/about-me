@@ -1,5 +1,5 @@
 body {
-  margin: 5px;
+  margin: 0;
   background-color: bisque;
   background-image: url(https://i.pinimg.com/originals/ad/1e/2c/ad1e2c0c93696b30a9a6c916cb73d4b7.jpg);
   background-size: cover;
@@ -8,13 +8,13 @@ body {
 header {
   background-color: rgba(255, 255, 255, 0);
   color: rgb(247, 230, 115);
-  padding: 32px;
+  padding: 3rem;
   margin: 10px;
   border: 2px solid rgb(247, 230, 115);
 }
 
 main {
-  padding: 16px;
+  padding: 0.5%;
   background-color: rgba(255, 255, 255, 0);
   color: black;
 }
@@ -49,11 +49,21 @@ img:hover {
   transform: scaleX(-1);
 }
 
+ul {
+  text-align: center;
+  font-family: monospace;
+}
+
+ol {
+  text-align: center;
+  font-family: monospace;
+}
+
 footer {
   background-color: rgba(255, 255, 255, 0);
   font-family: "Homer Simpson Revised";
   color: rgb(247, 230, 115);
-  padding: 16px;
+  padding: 1rem;
   border: 2px solid rgb(247, 230, 115);
   text-align-last: left;
 }

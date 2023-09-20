@@ -58,3 +58,32 @@ if (simpsons === "YES") {
   console.log("Wrong!");
   alert("You're dead wrong, she absolutely does");
 }
+
+let ans = prompt(
+  "Where does Susie rank Marge Simpson in her list of Top 10 TV Characters? (1-10)"
+);
+let countguess = 0;
+while (ans !== "3" && countguess < 3) {
+  countguess = countguess + 1;
+  ans = prompt("Incorrect! Guess " + countguess.toString() + "/4");
+}
+
+if (ans === "3") {
+  console.log("The answer is 3");
+  alert("Correct! She's #3!");
+} else {
+  alert("You have run out of guesses. The answer is #3");
+}
+
+let tv = ["succession", "friends", "red dwarf"];
+let tvAns = prompt(
+  "Susie's favourite characters are in which TV shows?"
+).toLowerCase();
+
+for (let i = 0; i < tv.length; i++) {
+  if (tvAns === tv[i]) {
+    alert("Correct!");
+  }
+}
+
+alert("You got " + userPoints + "/6 questions correct");
