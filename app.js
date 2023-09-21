@@ -2,6 +2,10 @@ console.log("Hello!");
 
 function userName() {
   let intro = prompt("What is your name?");
+  //if (!intro);
+  {
+    //intro = prompt("Please enter your name");
+  }
   console.log("The users name is " + intro);
   alert("Hello " + intro + ", I'm Susie!");
 }
@@ -88,7 +92,7 @@ function answerNumber() {
 answerNumber();
 
 function answerTV() {
-  let tv = ["succession", "friends", "red dwarf"];
+  let tv = ["succession", "friends", "the simpsons"];
   let tvAns = prompt(
     "Susie's favourite characters are in which TV shows?"
   ).toLowerCase();
@@ -96,6 +100,8 @@ function answerTV() {
   for (let i = 0; i < tv.length; i++) {
     if (tvAns === tv[i]) {
       alert("Correct!");
+    } else {
+      alert("Sorry! Not the answer we were looking for");
     }
   }
 }
